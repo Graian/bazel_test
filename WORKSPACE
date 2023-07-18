@@ -25,7 +25,7 @@ load("@rules_rust//crate_universe:defs.bzl", "crates_repository")
 
 crates_repository(
     name = "crate_index_cargo_local",
-    cargo_lockfile = "//mimic:Cargo.lock",
+    cargo_lockfile = "//:Cargo.lock",
     manifests = [
         "//lib:Cargo.toml",
         "//mimic:Cargo.toml",
