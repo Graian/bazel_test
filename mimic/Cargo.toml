@@ -1,0 +1,14 @@
+[package]
+name = "mimic"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lib = { path = "../lib" }
+clap = "3.0.1"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
