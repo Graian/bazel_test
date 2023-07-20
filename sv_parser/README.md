@@ -23,7 +23,6 @@ $ bazel build //lib:lib 2>&1 | tee bazel_build.log
 
 * Bazel run for main.rs
 ```
-```
 $ pwd
 ~/bazel_test/sv_parser
 
