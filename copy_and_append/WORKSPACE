@@ -28,7 +28,7 @@ crates_repository(
     cargo_lockfile = "//:Cargo.lock",
     manifests = [
         "//lib:Cargo.toml",
-        "//mimic:Cargo.toml",
+        "//main:Cargo.toml",
         "//:Cargo.toml",
     ],
 )
