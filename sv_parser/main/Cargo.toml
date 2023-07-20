@@ -1,0 +1,14 @@
+[package]
+name = "main"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lib = { path = "../lib" }
+sv-parser = "0.13.1"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
